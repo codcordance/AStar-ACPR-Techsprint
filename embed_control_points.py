@@ -27,12 +27,12 @@ class ControlPointsEmbedder:
     )
 
 
-  def embed_control_points_from_file(self, file_name):
+  def embed_control_points_from_file(self, file_name, target_file_name="control_points_with_embeddings.json"):
     df = self._read_json_to_df(file_name)
     df['content'] = df['content'].apply(self._parse_object_to_md)
     df['content'] = df['content'].apply(self._normalize_text)
     df['embedding'] = df['content'].apply(self._generate_embeddings)
-    df.to_json("control_points_with_embeddings.json", orient="records")
+    df.to_json(target_file_name, orient="records")
     return df
 
 
@@ -45,7 +45,7 @@ class ControlPointsEmbedder:
   #   return df
 
 
-  def embed_control_points_from_objs(self, obj: list):
+  def embed_control_points_from_objs(self, obj: list, target_file_name="control_points_with_embeddings.json"):
     contents = []
     for i in range(len(obj)):
       contents.append({'content': obj[i]})
@@ -53,7 +53,7 @@ class ControlPointsEmbedder:
     df['content'] = df['content'].apply(self._parse_object_to_md)
     df['content'] = df['content'].apply(self._normalize_text)
     df['embedding'] = df['content'].apply(self._generate_embeddings)
-    df.to_json("control_points_with_embeddings.json", orient="records")
+    df.to_json(target_file_name, orient="records")
     return df
 
 
