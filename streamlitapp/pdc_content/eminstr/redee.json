@@ -4,7 +4,8 @@
     "code": "redee",
     "desc": "The instrument can only be redeemed, repurchased or called if the Relevent Regulator or Authority has given its prior approval.  ",
     "base_leg": [
-        "Article  63(j) and Article 77 Regulation (EU) No 575/2013"
+        "Article  63(j) and Article 77 Regulation (EU) No 575/2013 ",
+        "Article 52(i) and Article 77 Regulation (EU) No 575/2013"
     ],
     "methodology": [
         "Search the document for a reference to the call, redemption  or repurchase of the instrument",
