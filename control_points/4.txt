@@ -1,0 +1,21 @@
+Point de contrôle 4
+=======
+# Catégorie : Tier 2 Own Funds instrument characteristics monitoring  
+# Numéro : 4
+# Intitulé du point de contrôle : 
+Please confirm that the T&C of the instrument does not contain a mandatory tax call
+# Base légale : 
+1.	Article  63(i) and 63(k) Regulation (EU) No 575/2013
+
+# Exemple de conformité :
+Lack of provision 
+# Exemple de non-conformité : 
+(A) By a decision of the French Tax Administration of September 3, 1986 payments of interest on, and other income with respect to, the Notes benefit from the exemption from French withholding taxes or deduction thereof as such exemption is provided in Article 13 1 quater of the General Tax Code. Accordingly such payments do not give rise to any credit for French taxes.
+(B) All payments of principal and interest will be made without deduction or withholding for any taxes or duties within the Republic of France unless the Bank is required by law to deduct or whithold such taxes or duties. In that event the Bank will, to the extent then permitted by law, pay such additional amounts of principal or interest as will result in the payment to the holders of the Notes or Coupons, as the case may be, of the amounts which would otherwise have been payable in respect thereof but for such deduction or withholding except that the Bank shall not be liable to make any such additional payment in respect of any Note or Coupon presented for payment:
+(i) by or on behalf of a person who is subject to such taxes or duties in respect of such Note or Coupon by any reason other than the mere holding of such Note or Coupon: or
+(ii) more than 30 days after the date on which the payment in respect of the Notes or Coupons becomes
+due except to the extent that the holder thereof would have been entitled to such additional payment on presenting the same for payment within such period of 30 days.
+(C) In the event that the Bank shall be required pursuant to paragraph (B) of this Condition to pay such additional amounts as are therein referred to, the Bank may, subject to having obtained all required authorizations if any, on giving not more than 60 nor less than 45 days’ notice thereof in accordance with Condition 10, redeem, at par, all but not some only, of the Notes together with accrued interest to the date of redemption.
+
+# Procédure à suivre : 
+Contact the Supervised Entity to organize a meeting.  

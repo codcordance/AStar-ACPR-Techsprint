@@ -1,0 +1,17 @@
+Point de contrôle 3
+=======
+# Catégorie : Tier 2 Own Funds instrument characteristics monitoring  
+# Numéro : 3
+# Intitulé du point de contrôle : 
+Please confirm that the instruments are issued or the subordinated loans are raised, as applicable, and fully paid-up
+
+# Base légale : 
+1.	Article  63(a) Regulation (EU) No 575/2013
+
+# Exemple de conformité :
+The Notes are issued on 11 January 2023 (the “Issue Date”) in dematerialised bearer form (au porteur) in the denomination of €200,000 each. Title to the Notes will be evidenced in accordance with Articles L.211-3 et seq. and R.211-1 of the French Code monétaire et financier by book entries (inscriptions en compte). No physical document of title (including certificats représentatifs pursuant to Article R.211-7 of the French Code monétaire et financier) will be issued in respect of the Notes.
+
+# Exemple de non-conformité : 
+
+# Procédure à suivre : 
+Contact the Supervised Entity to organise a meeting.  

@@ -1,0 +1,22 @@
+Point de contrôle 13
+=======
+# Catégorie : Authentification à l’interface d’accès 
+# Numéro : 13
+# Intitulé du point de contrôle : 
+L’interface d’accès doit prévoir une exemption d’authentification forte de 180 jours pour les
+prestataires de services d’information sur les comptes. Concrètement, les tokens doivent
+être valides au moins pour une durée de 180 jours. Dans l’attente, il ne peut être fait de
+différences en termes de fréquence d’authentification entre les interfaces d’accès et l’accès
+direct aux comptes de paiement mis à disposition par l’établissement teneur de compte à ses
+clients.  
+# Base légale : 
+1. Article 10 du Règlement délégué n°2018/389 – RTS SCA-CSC
+2. Point 30 de l’Opinion EBA/OP/2020/10
+# Exemple de conformité :
+La durée de validité du token pour accéder aux comptes de paiements est de 190 jours. 
+# Exemple de non-conformité : 
+La durée de vie du refresh token est toujours de 90 jours au lieu des 180 imposés par la
+réglementation.
+# Procédure à suivre : 
+Informer l’établissement de la non-conformité de leur pratique, et demander l’extension
+immédiate de la durée de validité des tokens à 180 jours. 

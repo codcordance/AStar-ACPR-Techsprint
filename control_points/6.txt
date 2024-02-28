@@ -1,0 +1,25 @@
+Point de contrôle 23
+=======
+# Catégorie : Données communiquées par les Prestataires de services de paiement
+gestionnaire de compte (PSPGC) aux Tiers prestataires de service de paiements (TPP)
+# Numéro : 23
+# Intitulé du point de contrôle : 
+Toutes   les   informations   liées   aux   comptes   de   paiement, mises   à   la disposition
+de   l’utilisateur   de   services   de   paiement   doivent   être disponibles dans l’API (par
+exemple et sans exhaustivité : les libellés des comptes, la distinction des cartes à débit
+différé, la date des   opérations, les   opérations   en   attente...) selon le principe  d’une non-
+discrimination   entre   banque   en   ligne   et   interface   dédiée.   Les services à valeur
+ajoutée fournis par l’établissement teneur de compte ne   sont   pas   concernés   par   cette
+disposition (exemple :   aide   à   la gestion du budget, service Paylib...).
+# Base légale : 
+1. Article   67   2.   d)   et   3.   b)   de   la DSP2. 
+2. Article   L133-41   du   Code monétaire et financier. 
+3. Article   36   (1)   (a)   du   Règlement délégué n°2018/389 – RTS SCA-CSC
+# Exemple de conformité :
+# Exemple de non-conformité : 
+L'API est limitée à une restitution de 700 opérations pour une période donnée. Elle ne
+remonte   pas   l'ensemble   des   opérations,   contrairement   au   relevé   de   comptes   du  
+client.
+# Procédure à suivre : 
+Informer l’établissement de la non-conformité observée, et demander les éléments de
+remédiation dans un délai de 3 mois. 

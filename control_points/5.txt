@@ -1,0 +1,28 @@
+Point de contrôle 5
+=======
+# Catégorie : Tier 2 Own Funds instrument characteristics monitoring  
+# Numéro : 5
+# Intitulé du point de contrôle : 
+Please confirm that the call of the instrument, prior to the date of its contractual maturity is conditioned to the prior permission of the competent authority.
+
+# Base légale : 
+1.	Article  63(j) and Article 77 Regulation (EU) No 575/2013
+
+# Exemple de conformité :
+1.	The Bank shall take all necessary steps to obtain any necessary French authorization or consent for all purchases, and redemptions provided for in paragraphs (A) and (B) of this Condition 4, and shall not by any act or failure to act prejudice the special taxation status referred to in Condition 7(A).
+
+
+2.	7.7 Conditions to Redemption and Purchase: The Notes may only be redeemed or purchased if the Relevant Regulator has given its prior written approval to such redemption or purchase (as applicable) and the other conditions required by Articles 77 and 78 of the CRR (as applicable on the date of such redemption or purchase) are met.
+
+ As at the Issue Date, the following conditions are required by Articles 77 and 78 of the CRR: (i) on or before such redemption or purchase (as applicable) of the Notes, the Issuer replaces the Notes with capital instruments of an equal or higher quality on terms that are sustainable for its income capacity; or (ii) the Issuer has demonstrated to the satisfaction of the Relevant Regulator that its own funds and eligible liabilities would, following such redemption or purchase (as applicable), exceed the requirements laid down in the CRD IV Rules and the BRRD by a margin that the Relevant Regulator considers necessary on the basis set out in the CRD IV Rules for it to determine the appropriate level of capital of an institution; and (b) In the case of redemption before the fifth anniversary of the Issue Date, if: (i) the conditions listed in paragraphs (a)(i) or (a)(ii) above are met; and (ii) 
+
+(A)	in the case of redemption due to the occurrence of a Capital Event, (x) the Relevant Regulator considers such change to be sufficiently certain and (y) the Issuer demonstrates to the satisfaction of the Relevant Regulator that the Capital Event was not reasonably foreseeable at the time of issuance of the Notes; or 
+
+(B)	in the case of redemption due to the occurrence of a Tax Event, the Issuer demonstrates to the satisfaction of the Relevant Regulator that such Tax Event is material and was not reasonably foreseeable at the time of issuance of the Notes and the Issuer has delivered a certificate signed by one of its senior officers to the Principal Paying Agent (and copies thereof will be available at the Principal Paying Agent's specified office during its normal business hours) not less than five (5) calendar days prior to the date set for redemption that such Tax Event has occurred or will occur no more than ninety (90) calendar days following the date fixed for redemption, as the case may be; or 
+(C)	the Issuer replaces the Notes with own funds instruments of equal or higher quality at terms that are sustainable for the income capacity of the Issuer and the Relevant Regulator has permitted that action on the basis of the determination that it would be beneficial from a prudential point of view and justified by exceptional circumstances; or 
+
+(D)	 the Notes are repurchased for market making purposes. 68 For the avoidance of doubt, any refusal of the Relevant Regulator to give its prior written approval shall not constitute a default for any purpose.
+
+# Exemple de non-conformité : lack of provision 
+# Procédure à suivre : 
+Contact the Supervised Entity to organize a meeting.  

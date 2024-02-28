@@ -1,0 +1,15 @@
+Point de contrôle 1
+=======
+# Catégorie : Tier 2 Own Funds instrument characteristics monitoring  
+# Numéro : 1
+# Intitulé du point de contrôle : 
+Please confirm that the instruments are perpetual. 
+# Base légale : 
+1. Article  52(1)(g) Regulation (EU) No 575/2013
+# Exemple de conformité :
+  No fixed redemption: The Notes are perpetual obligations in respect of which there is no
+fixed redemption date.
+# Exemple de non-conformité : 
+Maturity Date: The Interest Payment Date falling on or nearest to 15 February 2034
+# Procédure à suivre : 
+Contact the Supervised Entity to organize a meeting.
