@@ -1,10 +1,10 @@
 {
     "category_name": "Emission d'instruments de fonds propres",
-    "name": "Verification of perpetual maturity",
+    "name": "T2 Own Funds Monitoring ",
     "code": "perp",
-    "desc": "Please confirm that the instruments are perpetual.  ",
+    "desc": "Please confirm that the instrument has a maturity of more than five years.",
     "base_leg": [
-        "Article  52(1)(g) Regulation (EU) No 575/2013"
+        "Article  63(g) Regulation (EU) No 575/2013"
     ],
     "methodology": [
         "Please search in the document the maturity date of the issuance ",
