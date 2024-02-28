@@ -39,7 +39,7 @@ def parse_object_to_md(obj):
     return md
 
 
-def generate_embeddings(text, model="ada-002"):
+def generate_embeddings(text, model="text-embedding-3-large"):
     return st.session_state["client"].embeddings.create(input = [text], model=model).data[0].embedding
 
 

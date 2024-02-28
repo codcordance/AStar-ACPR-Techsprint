@@ -1,10 +1,10 @@
 {
     "category_name": "Emission d'instruments de fonds propres",
-    "name": "Tier 2 Own Funds instrument characteristics monitoring  ",
+    "name": "AT1 Own Funds Instruments  Monitoring  ",
     "code": "5mat",
-    "desc": "Please confirm that the instrument has a maturity of more than five years.",
+    "desc": "Please confirm that the instrument is perpetual ",
     "base_leg": [
-        "Article 63(g) Regulation (EU) No 575/2013"
+        "Article 52 (1)(g) Regulation (EU) No 575/2013"
     ],
     "methodology": [
         "Search in the document the maturity date of the issuance ",
