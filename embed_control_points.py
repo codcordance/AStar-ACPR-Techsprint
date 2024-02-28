@@ -104,5 +104,5 @@ class ControlPointsEmbedder:
       return s
 
 
-  def _generate_embeddings(self, text, model="text-embedding-3-large"): # model = "deployment_name"
+  def _generate_embeddings(self, text, model="ada-002"): # model = "deployment_name"
       return self.client.embeddings.create(input = [text], model=model).data[0].embedding

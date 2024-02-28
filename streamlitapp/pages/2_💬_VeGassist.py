@@ -24,13 +24,13 @@ class VegaAssistant:
   def _cosine_similarity(self, a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
   
-  def _get_embedding(self, text, model="text-embedding-3-large"): # model = "deployment_name"
+  def _get_embedding(self, text, model="ada-002"): # model = "deployment_name"
     return self.client.embeddings.create(input = [text], model=model).data[0].embedding
 
   def search_docs(self, _embeddings: pd.DataFrame, user_query, top_n=4):
       embedding = self._get_embedding(
           user_query,
-          model="text-embedding-3-large" # model should be set to the deployment name you chose when you deployed the text-embedding-text-embedding-3-large (Version 2) model
+          model="ada-002" # model should be set to the deployment name you chose when you deployed the text-embedding-ada-002 (Version 2) model
       )
       embeddings = _embeddings.copy()
       embeddings["similarities"] = embeddings["embedding"].apply(lambda x: self._cosine_similarity(x, embedding))

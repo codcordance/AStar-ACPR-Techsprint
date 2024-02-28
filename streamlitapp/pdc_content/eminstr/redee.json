@@ -1,6 +1,6 @@
 {
     "category_name": "Emission d'instruments de fonds propres",
-    "name": "Repruchase of instruments",
+    "name": "Repurchase of instruments",
     "code": "redee",
     "desc": "The instrument can only be redeemed, repurchased or called if the Relevent Regulator or Authority has given its prior approval.  ",
     "base_leg": [

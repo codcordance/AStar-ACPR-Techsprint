@@ -30,7 +30,7 @@ def parse_object_to_md(obj):
 
     methodology = """"""
     for i, meth in enumerate(obj['methodology']):
-      methodology += f"{i}. {meth}\n"
+      methodology += f"{i+1}. {meth}\n"
     md += f"## Méthodologie\n{methodology}\n\n"
 
     md += f"## Exemple de conformité\n{obj['conform_example']}\n\n"
@@ -39,7 +39,7 @@ def parse_object_to_md(obj):
     return md
 
 
-def generate_embeddings(text, model="text-embedding-3-large"):
+def generate_embeddings(text, model="ada-002"):
     return st.session_state["client"].embeddings.create(input = [text], model=model).data[0].embedding
 
 
