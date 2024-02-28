@@ -125,6 +125,7 @@ def addcp():
             json.dump(data, f, ensure_ascii=False, indent=4)
 
         st.session_state['state-doccp'] = "enum"
+        st.toast('Enregistré !')
         st.rerun()
 
 def editcp():
@@ -211,6 +212,7 @@ def editcp():
             json.dump(data, f, ensure_ascii=False, indent=4)
 
         st.session_state['state-doccp'] = "enum"
+        st.toast('Enregistré !')
         st.rerun()
 
 def enum():
@@ -243,6 +245,7 @@ def enum():
                 with open(f'pdc_content/{code}/info.json', 'w', encoding='utf-8') as f:
                     json.dump({"code": code, "name": name}, f, ensure_ascii=False, indent=4)
                 modal.close()
+                st.toast('Créé !')
 
     tabs = st.tabs([data["name"] for data in cats])
 
@@ -258,10 +261,12 @@ def enum():
                 os.remove(f'pdc_content/{code}/{i}')
 
             os.rmdir(f'pdc_content/{code}')
+            st.toast('Supprimé !')
             st.rerun()
         if create:
             st.session_state['state-doccp-cat-ct'] = cats[i]
             st.session_state['state-doccp'] = "addcp"
+            st.toast('Créé !')
             st.rerun()
         
         jsons = [f for f in walk[i+1][2] if f != "info.json"]
