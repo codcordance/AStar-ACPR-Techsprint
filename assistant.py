@@ -6,14 +6,8 @@ from openai import AzureOpenAI
 
 class VegaAssistant:
   def __init__(self, embeddings_source, system_prompt):
-    os.environ["AZURE_OPENAI_KEY"] = "7e93421f46cd4680831023addcb0f42d"
-    os.environ["AZURE_OPENAI_ENDPOINT"] = "https://francecentral-openai.openai.azure.com"
     os.environ["AZURE_OPENAI_DeploymentId"] = "gpt-4-turbo"
-    self.client = AzureOpenAI(
-      api_key = os.getenv("AZURE_OPENAI_KEY"),  
-      api_version = "2023-05-15",
-      azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
-    )
+    self.client = st.session_state["client"]
     contents = []
     obj = json.load(open(embeddings_source, "r"))
     for i in range(len(obj)):
