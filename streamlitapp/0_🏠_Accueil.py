@@ -3,8 +3,8 @@ import os
 from openai import AzureOpenAI
 
 if "client" not in st.session_state:
-    os.environ["AZURE_OPENAI_KEY"] = "7e93421f46cd4680831023addcb0f42d"
-    os.environ["AZURE_OPENAI_ENDPOINT"] = "https://francecentral-openai.openai.azure.com"
+    os.environ["AZURE_OPENAI_KEY"] = ""  #push public sur github  
+    os.environ["AZURE_OPENAI_ENDPOINT"] = ""  #push public sur github 
     st.session_state["client"] = AzureOpenAI(
       api_key = os.getenv("AZURE_OPENAI_KEY"),  
       api_version = "2023-05-15",

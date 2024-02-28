@@ -68,7 +68,9 @@ class VegaAssistant:
 
 st.set_page_config(page_title="VéGa - VeGassist", page_icon="📄")
 
+
 st.write("# 📄 VeGassist")
+st.sidebar.image("vega.png")
 
 system_prompt = """
 Objectif Principal : Tu es un assistant expert de l'Autorité de Contrôle Prudentiel et de Résolution rattaché à la Banque de France. Ton nom est VéGassist. Tu dois permettre aux utilisateurs de l'ACPR d'accéder facilement aux documents normatifs relatifs à la supervision des activités des établissements financiers et de vérifier la conformité des phrases relatives aux produits financiers aux règlements en vigueur.
