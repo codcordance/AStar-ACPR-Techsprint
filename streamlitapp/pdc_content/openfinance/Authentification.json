@@ -1,8 +1,8 @@
 {
     "category_name": "Open Finance",
-    "name": "Authentification",
+    "name": "Authentification des API",
     "code": "Authentification",
-    "desc": "L’interface d’accès doit prévoir une exemption d’authentification forte de 180 jours pour les prestataires de services d’information sur les comptes. Concrètement, les tokens doivent être valides au moins pour une durée de 180 jours. Dans l’attente, il ne peut être fait de différences en termes de fréquence d’authentification entre les interfaces d’accès et l’accès direct aux comptes de paiement mis à disposition par l’établissement teneur de compte à ses clients. ",
+    "desc": "L’API doit prévoir une exemption d’authentification forte de 180 jours pour les prestataires de services d’information sur les comptes. Concrètement, les API doivent être valides au moins pour une durée de 180 jours. Dans l’attente, il ne peut être fait de différences en termes de fréquence d’authentification entre les API et l’accès direct aux comptes de paiement mis à disposition par l’établissement teneur de compte à ses clients. ",
     "base_leg": [
         "Article 10 du Règlement délégué n°2018/389 – RTS SCA-CSC",
         "Point 30 de l’Opinion EBA/OP/2020/10"
