@@ -1,0 +1,18 @@
+{
+    "category_name": "Open Finance",
+    "name": "Données communiquées",
+    "code": "Données communiquées",
+    "desc": "Toutes les informations liées aux comptes de paiement, mises à la disposition de l’utilisateur de services de paiement doivent être disponibles dans l’API (par exemple et sans exhaustivité : les libellés des comptes, la distinction des cartes à débit différé, la date des opérations, les opérations en attente...) selon le principe d’une non-discrimination entre banque en ligne et l’API.  ",
+    "base_leg": [
+        "Article 67 2. d) et 3. b) de la DSP2. ",
+        "Article L133-41 du Code monétaire et financier.",
+        "Article 36 (1) (a) du Règlement délégué n°2018/389 – RTS SCA-CSC"
+    ],
+    "methodology": [
+        "Si l’utilisateur formule une demande montrant qu’il n’a pas accès à toutes les informations, alors tu réponds qu’il s’agit d’une non-conformité.",
+        "Si l’utilisateur formule une demande montrant qu’il y a une limitation par rapport à l’API, alors tu réponds qu’il s’agit d’une non-conformité."
+    ],
+    "conform_example": "",
+    "non_conform_example": "L'API est limitée à une restitution de 700 opérations pour une période donnée. Elle ne remonte pas l'ensemble des opérations, contrairement au relevé de comptes de paiement du client.",
+    "proc": "Informer l’établissement de la non-conformité observée, et demander les éléments de remédiation dans un délai de 3 mois. \n"
+}

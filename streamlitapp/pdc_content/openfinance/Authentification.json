@@ -1,0 +1,16 @@
+{
+    "category_name": "Open Finance",
+    "name": "Authentification",
+    "code": "Authentification",
+    "desc": "L’interface d’accès doit prévoir une exemption d’authentification forte de 180 jours pour les prestataires de services d’information sur les comptes. Concrètement, les tokens doivent être valides au moins pour une durée de 180 jours. Dans l’attente, il ne peut être fait de différences en termes de fréquence d’authentification entre les interfaces d’accès et l’accès direct aux comptes de paiement mis à disposition par l’établissement teneur de compte à ses clients. ",
+    "base_leg": [
+        "Article 10 du Règlement délégué n°2018/389 – RTS SCA-CSC",
+        "Point 30 de l’Opinion EBA/OP/2020/10"
+    ],
+    "methodology": [
+        "Si l'utilisateur formule une requête montrant que l'API n'est pas disponible pendant une période très courte de temps comme une heure, alors réponds que ce n'est pas conforme. "
+    ],
+    "conform_example": "La durée de validité du token pour accéder aux comptes de paiements est de 190 jours. ",
+    "non_conform_example": "La durée de vie du refresh token est toujours de 90 jours au lieu des 180 imposés par la réglementation.",
+    "proc": "Informer l’établissement de la non-conformité de leur pratique, et demander l’extension immédiate de la durée de validité des tokens à 180 jours.  "
+}
