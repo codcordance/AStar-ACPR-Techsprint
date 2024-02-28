@@ -1,0 +1,18 @@
+{
+    "category_name": "Emission d'instruments de fonds propres",
+    "name": "Tier 2 Own Funds instrument characteristics monitoring  ",
+    "code": "5mat",
+    "desc": "Please confirm that the instrument has a maturity of more than five years.",
+    "base_leg": [
+        "Article 63(g) Regulation (EU) No 575/2013"
+    ],
+    "methodology": [
+        "Search in the document the maturity date of the issuance ",
+        "If there is no maturity date, the instrument is perpetual",
+        "If the instrument is perpetual, then the instrument is compliant",
+        "If there is a maturity date, then the instrument is not compliant"
+    ],
+    "conform_example": "",
+    "non_conform_example": "",
+    "proc": "Contact the Supervised Entity to organize a meeting.  "
+}

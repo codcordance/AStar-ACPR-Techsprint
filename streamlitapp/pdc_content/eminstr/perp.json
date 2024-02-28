@@ -1,0 +1,21 @@
+{
+    "category_name": "Emission d'instruments de fonds propres",
+    "name": "Verification of perpetual maturity",
+    "code": "perp",
+    "desc": "Please confirm that the instruments are perpetual.  ",
+    "base_leg": [
+        "Article  52(1)(g) Regulation (EU) No 575/2013"
+    ],
+    "methodology": [
+        "Please search in the document the maturity date of the issuance ",
+        "If there is no maturity date, the instrument is deemed perpetual",
+        "If the instrument is deemed perpetual, then the instrument is compliant",
+        "If there is a maturity date, verify that the associated year take place in more than five years",
+        "To do so, subtract the current year to the maturity year. ",
+        "If the results is equal to five or more, the instrument is compliant",
+        "If the results is not equal to five or more, the instrument is not compliant"
+    ],
+    "conform_example": "No fixed redemption: The Notes are perpetual obligations in respect of which there is no fixed redemption date.  Or No Scheduled Maturity. The Notes have no scheduled maturity date.",
+    "non_conform_example": "Maturity Date: The Interest Payment Date falling on or nearest to 15 February 2034",
+    "proc": "Contact the Supervised Entity to organize a meeting.  "
+}

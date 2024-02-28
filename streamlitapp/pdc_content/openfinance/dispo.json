@@ -1,0 +1,15 @@
+{
+    "category_name": "Open Finance",
+    "name": "Disponibilité",
+    "code": "dispo",
+    "desc": "L’API doit être tout le temps disponible. ",
+    "base_leg": [
+        "Article 32 du Règlement délégué n°2018/389 "
+    ],
+    "methodology": [
+        "Si l’utilisateur formule une demande montrant qu’une API est indisponible pendant une très courte durée (moins d’une heure), alors tu réponds qu’il s’agit d’une non-conformité.  "
+    ],
+    "conform_example": "",
+    "non_conform_example": "L’API a été indisponible de 15h à 18h le 15 janvier. ",
+    "proc": "Il faut prendre contact avec l’établissement pour comprendre l’origine de l’indisponibilité."
+}
